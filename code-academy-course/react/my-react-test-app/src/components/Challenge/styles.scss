@@ -1,0 +1,29 @@
+h1 {
+  line-height: 1.2;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto 50px;
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+    border-radius: 10px;
+
+    &-body-wrapper {
+        margin-left: 20px;
+    }
+
+    .card-title {
+        text-align: left;
+    }
+
+    .card-image {
+        border-radius: 50px;
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+}
