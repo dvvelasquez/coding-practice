@@ -222,9 +222,9 @@ function PersonalPizza({ options }) {
         const clickedTopping = target.value;
 
         setSelected((prev) => {
-            if (prev.includes(clickedTopping)) {                
+            if (prev.includes(clickedTopping)) {
                 return prev.filter(topping => topping !== clickedTopping);
-            } else {                
+            } else {
                 return [clickedTopping, ...prev];
             }
         })
@@ -259,7 +259,7 @@ function SeparateHooksForSeparateStates() {
             address: "sf theater"
         }
     })
-    
+
     return (
         <div>
             <h2>{title}</h2>

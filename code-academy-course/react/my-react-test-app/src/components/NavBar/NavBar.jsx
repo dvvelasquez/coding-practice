@@ -4,10 +4,13 @@ import { Link } from 'react-router-dom';
 function NavBar() {
     const pages = [
         {name: 'Home', path: '/home'},
-        {name: 'Forum Challenge', path: '/challenge'},
+        {name: 'Challenges', path: '/challenge'},
         {name: 'hooks', path: '/hooks'},
-        {name: 'todo', path: '/todoList'},
-        {name: 'Use Effect', path: '/use-effect'}
+        {name: 'todos', path: '/todoList'},
+        {name: 'Use Effect', path: '/use-effect'},
+        {name: 'fetch', path: '/fetch'},
+        {name: 'css-styling', path: '/styling'},
+        {name: 'forms', path: '/forms'}
     ];
 
     return (

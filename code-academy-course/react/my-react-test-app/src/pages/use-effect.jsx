@@ -2,10 +2,12 @@ import {
     PageTitle,
     Counter,
     CounterCleanUp,
-    AutoTimerCleanEvent
+    AutoTimerCleanEvent,
+    TheUseEffectEvent,
+    UseEffectConclusion
 } from '../components/UseEffect/PageTitle';
 
-export default function useEffect() {
+export default function TheUseEffect() {
     return (
         <div className='use-effect-page'>
             <h1>The useEffect() and it's bennefits</h1>
@@ -17,6 +19,10 @@ export default function useEffect() {
             <CounterCleanUp />
 
             <AutoTimerCleanEvent />
+
+            <TheUseEffectEvent />
+
+            <UseEffectConclusion />
         </div>
     )
 }

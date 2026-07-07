@@ -2,18 +2,19 @@ ul {
 	list-style-type: none;
 	padding: 0;
 }
-  
+
 label {
 	display: block;
 	margin: 20px;
 	font-size: 30px;
 	font-weight: bold;
 }
-  
+
 nav {
 	ul {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
 
     a {
@@ -22,7 +23,7 @@ nav {
         font-size: 10px;
     }
 }
-  
+
 button {
 	-webkit-transition-duration: 0.1s; /* Safari */
 	transition-duration: 0.1s;

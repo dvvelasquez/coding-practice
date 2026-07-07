@@ -1,18 +1,18 @@
-import { comments } from '../components/Challenge/commentData';
-import Card from '../components/Challenge/Card';
+import ForumChallenge from '../components/Challenge/Card/CommentContainer';
+import GuineaPigImgContainer from '../components/Challenge/SlideImages/containers/GuineaImgContainer'
+import VideoPlayerMenu from '../components/Challenge/VideoPlayer/VideoPlayer';
+import RockPaperScissors from '../components/Challenge/RockPaperScissors/Game';
 
-export default function ForumChallenge() {
+export default function Challenges() {
     return (
         <>
-            <h1>Forum Challenge</h1>
-            {comments.map((comment, index) => (
-                <Card
-                    key={index + comment.username}
-                    profileImg={comment.profileImg}
-                    username={comment.username}
-                    comment={comment.comment}
-                />
-            ))}
+            <ForumChallenge />
+
+            <GuineaPigImgContainer />
+
+            <VideoPlayerMenu />
+
+            <RockPaperScissors />
         </>
     )
 }

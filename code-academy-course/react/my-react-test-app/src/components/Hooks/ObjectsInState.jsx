@@ -48,7 +48,8 @@ export default function EditProfile() {
                 onChange={handleChange}
                 type="password"
                 name="password"
-            placeholder="Password"
+                placeholder="Password"
+                autoComplete="password"
             />
             <button type="submit">Save Profile</button>
         </form>
