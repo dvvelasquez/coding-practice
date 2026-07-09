@@ -6,6 +6,7 @@ import {
     UnControlledForm,
     UncontrolledFileManager
 } from "../components/Forms/Forms";
+import OrderPizza from "../components/Forms/PizzaOrderForm/PizzaOrderComponent";
 
 function ReactForms({ pageTitle }) {
     return (
@@ -23,6 +24,8 @@ function ReactForms({ pageTitle }) {
             <UnControlledForm />
 
             <UncontrolledFileManager />
+
+            <OrderPizza />
         </>
     )
 }

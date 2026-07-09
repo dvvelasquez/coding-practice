@@ -1,0 +1,67 @@
+.orderPizzaWrapper {
+    &.containerWrapper {
+        border-top: 1px solid #474747;
+        margin: 40px 0;
+        padding: 30px;
+    }
+
+    .label {
+        font-size: 16px;
+        margin: inherit;
+    }
+
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .containerItem {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+
+        > div {
+            width: calc(33.3333% - 30px);
+            margin: 0 15px;
+            box-sizing: border-box;
+        }
+    }
+
+    .cardContainer {
+        background-color: #ededed;
+        border-radius: 10px;
+    }
+
+    .img {
+        aspect-ratio: 2/3;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        object-fit: cover;
+        width: 100%;
+        max-width: 100%;
+        max-height: inherit;
+    }
+
+    .input {
+        width: 25%;
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+}
+
+.loading {
+    width: 30px;
+    height: 30px;
+    border: 5px solid #f3f3f3; /* Light gray background circle */
+    border-top: 5px solid #3498db; /* Blue spinning accent */
+    border-radius: 50%; /* Turns the square into a circle */
+    animation: spin 1s linear infinite; /* Runs the rotation infinitely */
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
