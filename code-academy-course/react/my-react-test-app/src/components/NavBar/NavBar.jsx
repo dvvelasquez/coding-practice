@@ -10,7 +10,8 @@ function NavBar() {
         {name: 'Use Effect', path: '/use-effect'},
         {name: 'fetch', path: '/fetch'},
         {name: 'css-styling', path: '/styling'},
-        {name: 'forms', path: '/forms'}
+        {name: 'forms', path: '/forms'},
+        {name: 'tailwind', path: '/tailwind'}
     ];
 
     return (
